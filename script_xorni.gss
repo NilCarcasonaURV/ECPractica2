@@ -1,5 +1,5 @@
-load g23.g4 "mult.mem"
-load g0.g3 "mult.mem"
+load g23.g4 "xorni.mem"
+load g0.g3 "xorni.mem"
 load g53.g1 "inst.mem"
 load g53.g3 "funct.mem"
 set g3 1'b1
