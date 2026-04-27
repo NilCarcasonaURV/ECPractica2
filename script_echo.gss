@@ -1,0 +1,7 @@
+load g23.g4 "echo.mem"
+load g0.g3 "echo.mem"
+load g53.g1 "inst.mem"
+load g53.g3 "funct.mem"
+set g3 1'b1
+clock + 1
+set g3 1'b0
