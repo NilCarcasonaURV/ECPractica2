@@ -1,0 +1,11 @@
+00/ 8c080064 # <input:21> lw $t0, 100($zero)
+01/ 00004824 # <input:22> and $t1, $zero, $zero
+02/ 00005024 # <input:23> and $t2, $zero, $zero
+03/ 8c0b0063 # <input:24> lw $t3, 99($zero)
+04/ 8d2c0065 # <input:25> lw $t4, 101($t1)
+05/ 014c5020 # <input:26> add $t2, $t2, $t4
+06/ 012b4820 # <input:27> add $t1, $t1, $t3
+07/ 0128682a # <input:28> slt $t5, $t1, $t0
+08/ 11a0fff7 # <input:29> beq $t5, $zero, 1
+09/ 08000004
+0a/ 1000ffff # <input:31> beq $zero, $zero, 65535
